@@ -1,4 +1,4 @@
-# ELK SOC Home Lab – Setup Guide
+## ELK SOC Home Lab – Setup Guide
 
 This document explains the setup, configuration, and log collection process of my ELK Stack SOC home lab.
 
@@ -39,9 +39,7 @@ The lab uses the following network ports:
 
 ## 4. SOC Lab Architecture
 
-The lab consists of two endpoint machines forwarding security logs to a centralized Ubuntu server.
-
-![ELK SOC Lab Architecture](architecture.jpg)
+![Ubuntu SOC Lab Architecture](architecture.png)
 
 ### Windows Log Collection
 - Installed Winlogbeat on the Windows virtual machine.
